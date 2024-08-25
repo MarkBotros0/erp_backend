@@ -1,0 +1,34 @@
+[
+    {
+        "model": "client_management.clienttype",
+        "pk": 1,
+        "fields": {
+            "name": "Individual",
+            "code": "IND"
+        }
+    },
+    {
+        "model": "client_management.clienttype",
+        "pk": 2,
+        "fields": {
+            "name": "Insurance Company",
+            "code": "INS"
+        }
+    },
+    {
+        "model": "client_management.clienttitle",
+        "pk": 1,
+        "fields": {
+            "title": "Mr.",
+            "title_ar": "السيد"
+        }
+    },
+    {
+        "model": "client_management.clientnature",
+        "pk": 1,
+        "fields": {
+            "name": "Independent",
+            "code": "IND"
+        }
+    }
+]
