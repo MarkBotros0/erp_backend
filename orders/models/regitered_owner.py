@@ -18,7 +18,7 @@ class RegisteredOwner(models.Model):
     end_date = models.DateField()
 
     client = models.ForeignKey('client_management.client', on_delete=models.CASCADE)
-    portfolio = models.ForeignKey('client_management.portofolio', on_delete=models.CASCADE)
+    portfolio = models.ForeignKey('client_management.portfolio', on_delete=models.CASCADE)
     client_requested_quantity = models.IntegerField()
 
     broker_invoice_number = models.CharField(max_length=100)

@@ -7,6 +7,5 @@ class Execution(TimestampsAbstractModel):
     execution_value = models.IntegerField()
     order = models.ForeignKey('orders.order',on_delete=models.CASCADE)
 
-
     def __str__(self):
         return f"Execution {self.id}"

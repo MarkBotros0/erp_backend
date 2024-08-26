@@ -2,7 +2,6 @@ from django.db import models
 
 from common.models import TimestampsAbstractModel
 
-
 class Order(TimestampsAbstractModel):
     order_date = models.DateField()
     broker = models.CharField(max_length=255)
